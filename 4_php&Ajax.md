@@ -12,12 +12,12 @@
 ## 準備
 
 - php
-    - ルーティング
-        - web.phpに追加する。
     - list.blade.phpを作成する。
     - controller
         - list.blade.phpを返すように記述する
-
+    - ルーティング
+        - web.phpに追加する。
+        - 条件：postでやること
 - html 
     - formタグの下にid="testList"を持つulタグを記述する
 ```
@@ -50,6 +50,7 @@
 - 受け取った値を使い動的なHTMLをreturnする。
 - Ajax成功時帰ってきたHTMLをulに表示する
     - Ajax.pngを参考
+    - たりないclassもあるのでしっかり見本のように仕上げること
 - 表示したliをクリックするとそのliに対応する備考がスライドダウンし、もう一度クリックするとスライドアップする
     - Ajax_after.pngを参考
 

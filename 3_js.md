@@ -18,9 +18,9 @@ $(function(){
 
 - 問一　送信ボタンをクリックしたら入力値をすべて取得しconsoleに表示する。
 - 問二　テンプレをクリックすると下記内容が各inputに入力される
-    - 姓　トランス
-    - 名　太郎
-    - メール　trans@gmail.com
+    - 姓　gizumo
+    - 名　華子
+    - メール　gizumo@gmail.com
     - 性別　女性
     - 年齢　20~29
     - 備考　test

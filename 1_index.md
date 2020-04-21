@@ -1,9 +1,11 @@
 ## 導入
 
-- Laravelをxampp下に置きコマンドプロントでLaravelディレクトリまで移動する
-    - macの場合はターミナル
-- `php artisan serve`を実行しサーバーを起動する
-- `http://127.0.0.1:8000` にアクセスし、Laravelのtopが表示出来たら成功
+- Laravelをインストール
+```
+composer create-project laravel/laravel --prefer-dist なまえ
+```
+- laravelディレクトリにターミナル上で移動し`php artisan serve`を実行しサーバーを起動する
+- `http://127.0.0.1:8000` にアクセスし、Laravelのtopが表示出来たら成功です。
 
 ## hello world　の表示
 
@@ -11,7 +13,7 @@
 
 - `php artisan make:controller testController`を実行し作成
 - メソッドの作成
-    - 下記コードを記入
+    - testControllerに下記コードを記入
 
 ```
 /**

@@ -2,8 +2,7 @@
 
 ## 導入
 
-phpでは動的なhtmlが書けるので基本的にテンプレートエンジンと呼ばれるphpファイルにhtmlを書いていきます。
-- resources/views 下に index.blade.php を作成
+resources/views 下に index.blade.php を作成
 
 index.blade.php
 ```
@@ -18,6 +17,8 @@ index.blade.php
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </head>
 <body style="background-color: #eee;">
+
+
 </body>
 </html>
 ```
@@ -37,11 +38,16 @@ public function index()
     - その中にscript.jsを作成し`alert('ok');`を記述。
 
 - jsファイルを読み込む
-    - scriptタグの下に`<script src="{{ asset('js/script.js') }}"></script>`を記述
+    - 3つ目のscriptタグの下に`<script src="{{ asset('js/script.js') }}"></script>`を記述してブラウザをリロード
         - asset()はlaravelのpublic下のファイルを指定してパスを取得します
     - 読み込みが確認出来たらalert()は消す。
 
 これで準備は完了です。
+
+### 補足
+- linkとscript×3でbootstrapを読み込んでいます。
+- 公式のプラグインはスリム版でAjaxが使えませんので今回はフルバージョンを読み込んでいます。
+- 自作のcssを読み込むときはbootstrapのlinkタグより下に記述します。
 
 
 ## HTML、bootstrap練習
