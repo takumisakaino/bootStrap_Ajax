@@ -18,7 +18,7 @@ composer create-project laravel/laravel --prefer-dist なまえ
 
 - `php artisan make:controller TestController`を実行し作成
 - メソッドの作成
-    - testControllerに下記コードを記入
+    - TestControllerに下記コードを記入
 
 ```
 /**
@@ -34,9 +34,9 @@ public function index()
 - routes/web.php に記述
     - 下記コードを記入
 ```
-Route::get('index', 'testController@index')->name('test.index');
+Route::get('index', 'TestController@index')->name('test.index');
 ```
-indexにgetメソッドでアクセスされたら、testControllerのindexメソッドを実行するという意味
+indexにgetメソッドでアクセスされたら、TestControllerのindexメソッドを実行するという意味
 
 `http://127.0.0.1:8000/index`にアクセスしhello worldが表示出来たら成功です。
 
