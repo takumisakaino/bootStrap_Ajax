@@ -16,7 +16,7 @@ composer create-project laravel/laravel --prefer-dist なまえ
 
 ### controllerの作成
 
-- `php artisan make:controller testController`を実行し作成
+- `php artisan make:controller TestController`を実行し作成
 - メソッドの作成
     - testControllerに下記コードを記入
 
