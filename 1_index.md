@@ -34,11 +34,11 @@ public function index()
 - routes/web.php に記述
     - 下記コードを記入
 ```
-Route::get('index', 'TestController@index')->name('test.index');
+Route::get('test', 'TestController@index')->name('test');
 ```
-indexにgetメソッドでアクセスされたら、TestControllerのindexメソッドを実行するという意味
+testにgetメソッドでアクセスされたら、TestControllerのindexメソッドを実行するという意味
 
-`http://127.0.0.1:8000/index`にアクセスしhello worldが表示出来たら成功です。
+`http://127.0.0.1:8000/test`にアクセスしhello worldが表示出来たら成功です。
 
 ここまで出来たらOKです。
 
