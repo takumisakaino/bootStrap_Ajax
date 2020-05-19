@@ -10,4 +10,4 @@ composer create-project laravel/laravel --prefer-dist なまえ
 cd なまえ
 php artisan serve
 ```
-- `Laravel development server started:` の右のURLにアクセスし、Laravelのtopが表示出来たら成功です。
+- `Laravel development server started:` の右のURLにブラウザでアクセスし、Laravelのtopが表示出来たら成功です。
