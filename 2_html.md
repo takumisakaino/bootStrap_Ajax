@@ -9,7 +9,7 @@
 下記画像の内容を課題通りに実装する
 ![index](img/index.png)
 
-<img src="img/index.png" alt="index">
+<img src="img/index.png" alt="index" width="640" height="318">
 
 ## 実装
 
