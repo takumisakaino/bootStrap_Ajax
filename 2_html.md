@@ -9,6 +9,8 @@
 下記画像の内容を課題通りに実装する
 ![index](img/index.png)
 
+<img src="img/index.png" alt="index">
+
 ## 実装
 
 resources/views 下に index.blade.php を作成
