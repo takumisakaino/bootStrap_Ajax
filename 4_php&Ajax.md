@@ -22,12 +22,12 @@
 
 - 追記
     - index.blade.php
+        -  formタグに、action、method、idを追加する
+            - 上記でweb.phpに記述したルートに従い記入する
         - formタグの下にid="testList"を持つulタグを記述する
-    ```
-    <ul id="testList" class="mt-5"></ul>
-    ```
-    - formタグに、action、method、idを追加する
-        - 上記でweb.phpに記述したルートに従い記入する
+```
+<ul id="testList" class="mt-5"></ul>
+```
 
 
 - 動的なviewを作成しlist.blade.phpに追記する。  
@@ -64,5 +64,5 @@
 <img src="img/Ajax_after.png" alt="Ajax" width="640" height="318">
 
 完成したら終了です。お疲れさまでした。
-
+目標時間以内に全てできた人は次のEX課題に進みましょう。
 
