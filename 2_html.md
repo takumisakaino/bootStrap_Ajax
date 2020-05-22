@@ -40,6 +40,9 @@ index.blade.php
 ```
 testContoroller(書き換え)
 ```
+/**
+* index.blade.phpを返す
+*/
 public function index()
 {
     return view('index');
