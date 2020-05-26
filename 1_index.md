@@ -1,18 +1,17 @@
-# bootStrap&Ajax課題
+# 下準備
 
-慣れてない人でも4〜5日を想定しているような簡単な内容になっています。慣れている人は2〜3日を目標にやってみましょう！
+## 目標時間
+
+30分〜1時間程度
+
+## 目的
+
+- 作業開始の準備を整え、`hello word`を表示させる
 
 
-## 導入（目標時間:30分〜1時間）
+## 実装
 
-- Laravelをインストール
-```
-composer create-project laravel/laravel --prefer-dist なまえ
-```
-- laravelディレクトリにターミナル上で移動し`php artisan serve`を実行しサーバーを起動する
-- `http://127.0.0.1:8000` にアクセスし、Laravelのtopが表示出来たら成功です。
-
-## hello world　の表示
+README.mdが終わってない方は先にそちらをやってください。
 
 ### controllerの作成
 
@@ -21,9 +20,6 @@ composer create-project laravel/laravel --prefer-dist なまえ
     - TestControllerに下記コードを記入
 
 ```
-/**
-* 文字列hello worldを返すという意味
-*/
 public function index()
 {
     return 'hello world';
