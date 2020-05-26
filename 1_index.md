@@ -9,7 +9,7 @@
 ```
 composer create-project laravel/laravel --prefer-dist なまえ
 ```
-- laravelディレクトリにターミナル上で移動し`php artisan serve`を実行しサーバーを起動する
+- laravel ディレクトリで、`php artisan make:controller testController`を実行し作成
 - `http://127.0.0.1:8000` にアクセスし、Laravelのtopが表示出来たら成功です。
 
 ## hello world　の表示
@@ -36,9 +36,9 @@ public function index()
 ```
 Route::get('test', 'TestController@index')->name('test');
 ```
-testにgetメソッドでアクセスされたら、TestControllerのindexメソッドを実行するという意味
+/indexにgetメソッドでアクセスされたら、testControllerのindexメソッドを実行するという意味
 
-`http://127.0.0.1:8000/test`にアクセスしhello worldが表示出来たら成功です。
+ブラウザで`http://127.0.0.1:8000/index`にアクセスしhello worldが表示出来たら成功です。
 
 ここまで出来たらOKです。
 
