@@ -9,14 +9,14 @@
 ```
 composer create-project laravel/laravel --prefer-dist なまえ
 ```
-- laravel ディレクトリで、`php artisan make:controller testController`を実行し作成
+- laravelディレクトリにターミナル上で移動し`php artisan serve`を実行しサーバーを起動する
 - `http://127.0.0.1:8000` にアクセスし、Laravelのtopが表示出来たら成功です。
 
 ## hello world　の表示
 
 ### controllerの作成
 
-- `php artisan make:controller TestController`を実行し作成
+- laravel ディレクトリで、`php artisan make:controller testController`を実行し作成
 - メソッドの作成
     - TestControllerに下記コードを記入
 
