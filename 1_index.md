@@ -15,7 +15,7 @@
 
 ### controllerの作成
 
-- laravel ディレクトリで、`php artisan make:controller TestController`を実行
+- 用意したlaravelプロジェクトがあるディレクトリで、`php artisan make:controller TestController`を実行
 - メソッドの作成
     - TestControllerに下記コードを記入
 
