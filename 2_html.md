@@ -1,4 +1,4 @@
-# bootstrap レイアウト編
+# Bootstrap レイアウト編
 
 ## 目標時間
 
@@ -6,7 +6,7 @@
 
 ## 目的
 
-下記画像の内容を課題通りに実装することで、bootstrapの使い方に慣れる。  
+下記画像の内容を課題通りに実装することで、Bootstrapの使い方に慣れる。  
 <img src="img/index.png" alt="index" width="640" height="318">
 
 ## 実装
@@ -54,13 +54,13 @@ public function index()
 これで準備は完了です。
 
 ### 補足
-- linkタグでbootstrapを読み込んでいます。ですが、まだclassしか読み込んでいませんのでbootstrapの全ての機能が使えるわけではありません。（今回の実装には問題ありません。）
-- 自作のcssを読み込むときはbootstrapのlinkタグより下に記述します。
-（今回はbootstrapの課題ですので、使わないでください）
+- linkタグでBootstrapを読み込んでいます。ですが、まだclassしか読み込んでいませんのでBootstrapの全ての機能が使えるわけではありません。（今回の実装には問題ありません。）
+- 自作のcssを読み込むときはBootstrapのlinkタグより下に記述します。
+（今回はBootstrapの課題ですので、使わないでください）
 
 ### 課題
 
-下記の条件に従いbootstrapを用いて実装してください。
+下記の条件に従いBootstrapを用いて実装してください。
 
 - 画像（index.png）の通りにformを作成して下さい。(画像はimgフォルダの中にあります。)
 - 各項目のname属性はそれぞれ`familyName`, `firstName`, `e-mail`, `sex`, `age`, `note`とし、性別以外はid属性もname属性と同じで結構です。性別はid属性を`male`,` female`としてください。
