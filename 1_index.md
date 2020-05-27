@@ -1,4 +1,4 @@
-# 下準備
+# hello worldを表示
 
 ## 目標時間
 
@@ -6,20 +6,20 @@
 
 ## 目的
 
-- 作業開始の準備を整え、`hello word`を表示させる
+- コントローラーの作成、ルーティングの方法を覚える
 
 
 ## 実装
 
-README.mdが終わってない方は先にそちらをやってください。
+※README.mdが終わってない方は先にそちらをやってください。
 
 ### controllerの作成
 
-- laravel ディレクトリで、`php artisan make:controller testController`を実行し作成
+- laravel ディレクトリで、`php artisan make:controller TestController`を実行
 - メソッドの作成
     - TestControllerに下記コードを記入
 
-```
+```php
 public function index()
 {
     return 'hello world';
@@ -27,15 +27,14 @@ public function index()
 ```
 
 ### ルーティングの作成
-- routes/web.php に記述
-    - 下記コードを記入
-```
+- routes/web.phpに下記コードを記入
+```php
 Route::get('test', 'TestController@index')->name('test');
 ```
-/indexにgetメソッドでアクセスされたら、testControllerのindexメソッドを実行するという意味
+`/test`にgetメソッドでアクセスされたら、TestControllerのindexメソッドを実行するという意味。
 
-ブラウザで`http://127.0.0.1:8000/index`にアクセスしhello worldが表示出来たら成功です。
+ブラウザで`http://127.0.0.1:8000/test`にアクセスしhello worldが表示出来たら成功です。
 
 ここまで出来たらOKです。
 
-次はhtml.mdです。
+次は2_html.mdです。
