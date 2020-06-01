@@ -1,4 +1,4 @@
-# bootstrap js基礎編
+# Bootstrap js基礎編
 
 ## 目標時間
 
@@ -6,15 +6,12 @@
 
 ## 目的
 
-次章に向けての準備をする  
-前章で作成したページに動きをつける
+- 前章で作成したページにjs(jQuery)で動きをつけることでjQueryの使い方に慣れる。
 
 ## 導入
 
-index.blade.php  
-下記追記を行う
-
-```
+index.blade.php(下記追記を行う)  
+```php
 // 略
   </style>
   <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>{{-- 追記 --}}
@@ -25,15 +22,15 @@ index.blade.php
 ```
 
 jsファイルの作成
-- public下にjsフォルダを作成
-- その中にscript.jsを作成し`alert('ok');`を記述。
+- publicディレクトリ下にjsフォルダを作成
+- jsフォルダにscript.jsを作成し`alert('ok');`を記述
 
 jsファイルを読み込む
 - 3つ目のscriptタグの下に`<script src="{{ asset('js/script.js') }}"></script>`を記述してブラウザをリロード
 - ブラウザでアラートが表示されたら先程のjsファイルからalert()は消し、以下を記述
 
 script.js
-```
+```js
 // HTMLが読み込まれた時に処理したい内容はこの中に
 $(function(){
 
@@ -50,15 +47,15 @@ $(function(){
 
 色々調べてやってみましょう。
 
-- 問一　送信ボタンをクリックしたら入力値をすべて取得しひとつずつconsoleに表示する。
-- 問二　テンプレボタンをクリックすると下記内容が各入力欄に入力される
+- 送信ボタンをクリックしたら入力値をすべて取得しひとつずつconsoleに表示してください。
+- テンプレボタンをクリックした際、下記内容が各入力欄に入力されるようにしてください。
     - 姓　gizumo
     - 名　華子
     - メール　gizumo@gmail.com
     - 性別　女性
     - 年齢　20~29
     - 備考　hondaに勤めている
-- 問三　操作不能ボタンをクリックすると操作不能ボタン以外のすべての項目が操作不能になりもう一度押すと解除される。
+- 操作不能ボタンをクリックすると操作不能ボタン以外のすべての項目が操作不能になりもう一度押すと解除されるようにしてください。
 
 
-完成したらphp&Ajax.mdに進んでください
+完成したらphp&Ajax.mdに進んでください。
