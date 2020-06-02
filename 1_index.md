@@ -29,11 +29,11 @@ public function index()
 ### ルーティングの作成
 - routes/web.phpに下記コードを記入
 ```php
-Route::get('test', 'TestController@index')->name('test');
+Route::get('index', 'TestController@index')->name('index');
 ```
-`/test`にgetメソッドでアクセスされたら、TestControllerのindexメソッドを実行するという意味。
+`/index`にgetメソッドでアクセスされたら、TestControllerのindexメソッドを実行するという意味。
 
-ブラウザで`http://127.0.0.1:8000/test`にアクセスしhello worldが表示出来たら成功です。
+ブラウザで`http://127.0.0.1:8000/index`にアクセスしhello worldが表示出来たら成功です。
 
 ここまで出来たらOKです。
 
